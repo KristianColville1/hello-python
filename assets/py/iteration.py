@@ -20,3 +20,10 @@ for i in range(len(scores)):
 
 
 print(scores)
+
+# compprehensions - dictionary example
+
+cards = ['king', 'queen', 'jack', 'ace']
+
+cards_dict = {card:card.upper() for card in cards}
+print(cards_dict)
